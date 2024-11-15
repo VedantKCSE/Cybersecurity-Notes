@@ -1,3 +1,7 @@
+---
+icon: display-chart-up
+---
+
 # SL7 Training
 
 ## Session - 5 \[ 14/11/2024 ]
