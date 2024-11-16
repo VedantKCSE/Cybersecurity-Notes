@@ -1,6 +1,6 @@
 ---
-description: '#Jr. Penetration Tester'
 icon: arrows-to-dot
+description: '#Jr. Penetration Tester'
 ---
 
 # Content Discovery Room
@@ -8,6 +8,8 @@ icon: arrows-to-dot
 {% embed url="https://tryhackme.com/r/room/contentdiscovery" %}
 Content Discovery Room
 {% endembed %}
+
+***
 
 ## Notes
 
@@ -46,6 +48,8 @@ Tools
 * ffuf
 * dirb
 * gobuster
+
+***
 
 ### Resource Links:
 
