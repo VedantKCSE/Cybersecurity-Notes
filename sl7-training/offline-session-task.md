@@ -53,6 +53,8 @@ source ~/.bashrc
 ar -u https://www.example.com
 ```
 
+close the current shell and execute the command
+
 data cleaning
 
 ```bash
@@ -101,10 +103,60 @@ katana usage
 katana -u https://www.hackerone.com/ > crawl_katana.txt
 ```
 
+hakrawler Installation
+
+```bash
+sudo apt install docker.io -y
+git clone https://github.com/hakluke/hakrawler
+cd hakrawler
+sudo docker build -t hakluke/hakrawler .
+sudo docker run --rm -i hakluke/hakrawler --help
+```
+
+usage
+
+```
+// Some code
+```
+
+
+
 Subjs Installation
 
 ```bash
 tar xvf subjs_1.0.1_linux_amd64.tar.gz
 sudo mv subjs /usr/bin/subjs 
+```
+
+spiderfoot
+
+```
+spidefoot -l localhost:5009
+```
+
+open the link in browser
+
+Linkfinder
+
+installation
+
+```
+git clone https://github.com/GerbenJavado/LinkFinder.git
+cd LinkFinder
+sudo pip install jsbeautifier
+```
+
+usage
+
+```
+python3 linkfinder.py -i https://www.hackerone.com -o cli
+```
+
+for finding links from links&#x20;
+
+```bash
+while read url; do
+    python3 linkfinder.py -i "$url" -o cli > [output file]
+done < [input file]
 ```
 
